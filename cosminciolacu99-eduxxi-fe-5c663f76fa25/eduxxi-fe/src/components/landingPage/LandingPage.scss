@@ -1,0 +1,15 @@
+@import '../../font';
+@import '../../colors';
+
+.title {
+    font-size: $font_xl;
+    font-family: 'Poppins', sans-serif;
+    color: $dark;
+    font-weight: 700;
+}
+.description {
+    font-size: $font_md;
+    font-family: 'Poppins', sans-serif;
+    color: $dark;
+    font-weight: 400;
+}

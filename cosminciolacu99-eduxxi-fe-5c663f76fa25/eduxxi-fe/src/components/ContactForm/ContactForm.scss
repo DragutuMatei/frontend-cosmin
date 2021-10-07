@@ -1,0 +1,55 @@
+@import '../../colors';
+@import '../../font';
+
+.Input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    width: 217px;
+    height: 45px;
+
+    background: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    &::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-size: $font_xs;
+        font-weight: 400;
+        color: $dark;
+    }
+}
+.Textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+    min-width: 450px;
+    background: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    &::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-size: $font_xs;
+        font-weight: 400;
+        color: $dark;
+    }
+}
+.Button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 25px;
+    width: 104px;
+    height: 43px;
+    background: $purple;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: $font_button;
+    font-weight: 600;
+    color: $light;
+}
